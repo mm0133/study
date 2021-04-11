@@ -1,0 +1,33 @@
+COUNT(컬럼) AS 받을 컬럼이름
+AVG(컬럼)
+MAX(컬럼)
+MIN(컬럼) 
+SUM(컬럼)
+
+SELECT COUNT(DISTINCT NAME) FROM ANIMAL_INS WHERE NAME IS NOT NULL
+COALESCE(컬럼,대체값) => 널값을 대체함
+
+DISTINCT(컬럼) ->중복제거
+HOUR(DATETIME컬럼) -> 데이트타임필드에서 시간을 추출함
+
+LEFT JOIN
+RIGHT JOIN
+UNION(LEFT, RIGHT)FULL OUTER JOIN
+
+LIMIT
+
+WHERE NAME IN ('Lucy','Ella','Pickle','Rogan','Sabrina','Mitty')
+NAME LIKE '김%'  '김?' '%김%'
+NOT LIKE '%포함문자%'
+case when sex_upon_intake like('%Neutered%') THEN 'O' 
+            when sex_upon_intake like('%Spayed%') THEN 'O' 
+       else 'X' END as 중성화
+
+IF(SEX_UPON_INTAKE LIKE 'Intact %', 'X', 'O') as '중성화'
+
+RIGHT("문자열",5) ,LEFT("문자열",5) SUBSTRING("문자열",시작위치,끝위치)
+
+
+INSERT INTO 테이블명 [컬럼1, 컬럼2, ...] VALUES (값1, 값2, ...);
+
+

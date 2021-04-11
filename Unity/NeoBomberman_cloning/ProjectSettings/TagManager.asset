@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Tile
+  - Block
+  - Map
+  - Bomb
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Bomb
+  - BombSetting
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: MapTile
+    uniqueID: 944150253
+    locked: 0
+  - name: Exit
+    uniqueID: 232294031
+    locked: 0
+  - name: MapObjBottom
+    uniqueID: 3043989973
+    locked: 0
+  - name: Fire
+    uniqueID: 3011007555
+    locked: 0
+  - name: Block
+    uniqueID: 1183651171
+    locked: 0
+  - name: Bomb
+    uniqueID: 2320564153
+    locked: 0
+  - name: Player
+    uniqueID: 2255705249
+    locked: 0
+  - name: Monster
+    uniqueID: 3520971405
+    locked: 0
+  - name: Item
+    uniqueID: 3646185989
+    locked: 0
+  - name: MapObjTop
+    uniqueID: 1589828739
+    locked: 0
